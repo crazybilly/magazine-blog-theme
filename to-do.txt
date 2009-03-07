@@ -1,0 +1,14 @@
+To Do
+
+other space savings?
+	get boxes tighter (and closer to top)
+embiggen text in tabs?
+tighten the grid
+	wrap sidebar contents in divs (or class the <h3>s)
+		then align to grid
+	figure out search bar
+	align h1 to grid
+
+find pics
+create header img
+

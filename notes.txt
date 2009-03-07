@@ -1,0 +1,24 @@
+linux - img of real penguin
+links - img of spider web
+life  - img I took of icey wood thingy
+art   - 
+tech  - 
+religion - rockhouse pic?
+
+
+Useful Wordpress Notes:
+
+on generating a category list: http://codex.wordpress.org/Template_Tags/wp_list_categories
+
+template heirarchy: http://codex.wordpress.org/Template_Hierarchy
+category templates: http://codex.wordpress.org/Category_Templates
+
+
+
+Notes on positioning category images/titles:
+
+li {
+	display: block;
+	width: 295px;
+	height: 121px;
+	position: relative; /* remember, it's relative to where it would be */

@@ -1,0 +1,260 @@
+/* all assumptions are on 16px em */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-size: 90%;
+	font-family: Droid Sans,Lucida Grande,Trebuchet MS, Arial, sans-serif;
+	}
+
+.container {
+	/* width: 992px/62em; */
+	margin-left: 1em;
+	width: 976px;
+	}
+
+.header {
+	/* original - height: 80px/5em; */
+	/*height: 146px;*/
+	height: 100%;
+	background-color: #808080;
+	color: #D3D3D3;
+	/*background-img:
+		url(' '); */
+	}
+
+.header h1 {
+	font-size: 4em;
+	padding: .5em 0 0 1em;
+	font-family: Droid Serif,Georgia,Times,serif;
+	margin-bottom: 0;
+	}
+
+/* Header Tabs */
+ul.tabs  {
+	display: block;
+	list-style: none;
+	background-color: #D3D3D3;
+	padding: .5em 0;
+	color: black;
+	margin-left: 0;
+	height: 100%;
+	margin-bottom: 0;
+	}
+
+.tabs li {
+	font-size: 1.45em;
+	border-right: 1px solid silver;
+	padding-right: 1em;
+	padding-left: 1em;
+	display: inline;
+	list-style: none;
+	}
+
+
+/*probably needs adjustment */
+li#archivetab  {
+	padding-left: 2em;
+	}
+
+li#subscribetab {
+	/* might need to change this */
+	padding-left: 1em;
+	}
+
+	#subscribetab img {
+		padding-right: .1em;
+		margin-right: .4em;
+		vertical-align: baseline;
+		width: 1em;
+		}
+
+li#searchtab {
+	text-align: right;
+	margin-left: 1.5em;}
+
+	#searchbar {
+		color: silver;
+		font-size: .8em;
+		}
+	#searchsubmit {
+		font-size: .9em;
+		}
+
+/* Start Content */
+
+.contentoutside {
+	clear: both;
+}
+
+
+/*  Sidebar  */
+
+.sidebar {
+	width: 25em;
+	float: right;
+	font-size: 10pt;
+	padding-top: 1em;
+
+	}
+
+.sidebar h3 {
+    font-size: 1.5em;
+	font-family: Droid Serif,Georgia,Times,serif;
+	padding-top: 1em;
+	border-top: 1px solid silver;
+	margin-top: .8em;
+	}
+
+.sidebar div > h3:first-child {
+	padding-top: 0;
+	border-top: 0;
+	margin-top: 0;
+
+}
+
+
+#sidebarleft {
+	/*float: left;*/
+	width: 13em;
+	border-right: 1px solid silver;
+	padding-right: .7em;
+	margin-right: -10em;
+	}
+
+	ul#twitter_update_list {
+		list-style: none;
+		margin-left: 0;
+		padding-left: 0;
+		}
+
+	#twitter_update_list li {
+		list-style: none;
+		margin-left: 0;
+		padding-left: 0;
+		padding-bottom: .5em;
+		border-bottom: 1px solid #f2f2f2;
+		padding-top: .8em;
+		}		
+
+		#twitter_update_list li:last-child {
+			border-bottom: none;
+			}
+
+#sidebarright {
+	float: right;
+	width: 10em;
+	margin: 0;
+	}
+
+
+/* Content  */
+
+.content {
+	/* orginal 
+	 * width: 752px/47em;
+	 * height: 544px/34em;
+	 */
+	width: 620px;
+	height: 490px;
+	float: left;
+	}
+
+/* Label for category pics
+	---needs positioning as well --*/
+
+.categories ul {
+	display: inline;
+	margin: 0;
+	padding: 0;
+	}
+
+.categories li {
+	font-size: 15pt;
+	display: block;
+	width: 295px;
+	height: 121px;
+	background-color: gray;
+	position: relative;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	}
+
+.categories a {
+	display: block;
+	padding: 0.5em 0.5em 0.5em 1em;
+	background-color: yellow;
+	width: 4em;
+	/*
+	background-img:
+		url ( ' .jpg');
+			/*transparent */ 
+	}
+
+
+/*  Pics for Category Links on index
+*
+*/
+
+#cat-linux {
+	background-img:
+		url(' .jpg');
+		top: 16px;
+		}
+
+#cat-religion {
+	background-img:
+		url(' .jpg');
+		top: -105px;
+		left: 324px
+	}
+#cat-tech {
+	background-img:
+		url(' .jpg');
+		top: -76px;
+	}
+	
+#cat-art {
+	background-img:
+		url(' .jpg');
+		top: -197px;
+		left: 324px
+	}
+	
+#cat-links {
+	background-img:
+		url(' .jpg');
+		top: -167px;
+	}
+
+#cat-life {
+	background-img:
+		url(' .jpg');
+		top: -288px;
+		left: 324px;
+	}
+		
+
+
+/* ---end category pics: -- */
+
+
+.footer {
+	/*height: 80px/5em;*/
+	height: 80px;
+	font-size: .8em;
+	line-height: 1.5em;
+	clear: both;
+	padding: 1em 0 .5em 0;
+	border-top: 1px solid silver;
+	
+	}
+
+.footer img {
+	width: 1em;
+	padding-right: .7em;
+	}
+
