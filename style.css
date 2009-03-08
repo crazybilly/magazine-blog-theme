@@ -193,6 +193,7 @@ li#searchtab {
 	background-image: 
 		url('images/transp.png');
 	width: 4em;
+	font-weight: bold;
 	/*
 	background-img:
 		url ( ' .jpg');
