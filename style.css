@@ -36,7 +36,9 @@ body {
 ul.tabs  {
 	display: block;
 	list-style: none;
-	background-color: #D3D3D3;
+/*	background-color: #D3D3D3; */
+	background-image: 
+		url(images/tab.png);
 	padding: .5em 0;
 	color: black;
 	margin-left: 0;
