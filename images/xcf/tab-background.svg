@@ -19,14 +19,13 @@
   <defs
      id="defs4">
     <linearGradient
-       inkscape:collect="always"
        id="linearGradient3309">
       <stop
-         style="stop-color:#a86a29;stop-opacity:1;"
+         style="stop-color:#e7e7e7;stop-opacity:1;"
          offset="0"
          id="stop3311" />
       <stop
-         style="stop-color:#a86a29;stop-opacity:0;"
+         style="stop-color:#e7e7e7;stop-opacity:0;"
          offset="1"
          id="stop3313" />
     </linearGradient>
@@ -82,7 +81,7 @@
        xlink:href="#linearGradient3309"
        id="radialGradient3329"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(-2.743431,0,0,-0.1587146,1283.1901,547.54927)"
+       gradientTransform="matrix(-2.0382501,-5.1558749e-5,4.723584e-6,-9.9746247e-2,1082.2699,519.7278)"
        cx="303.78342"
        cy="472.06915"
        fx="303.78342"
@@ -99,16 +98,16 @@
      objecttolerance="10"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.29599736"
-     inkscape:cx="992.1182"
-     inkscape:cy="858.31201"
+     inkscape:zoom="4.7359578"
+     inkscape:cx="493.39416"
+     inkscape:cy="580.18178"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="1280"
-     inkscape:window-height="765"
-     inkscape:window-x="-1"
-     inkscape:window-y="1" />
+     inkscape:window-width="1600"
+     inkscape:window-height="1153"
+     inkscape:window-x="-4"
+     inkscape:window-y="-4" />
   <metadata
      id="metadata7">
     <rdf:RDF>
@@ -133,10 +132,10 @@
        y="423.03714" />
     <path
        style="opacity:1;fill:url(#radialGradient3329);fill-opacity:1;stroke:none;stroke-width:0.39912876000000003;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       d="M 449.48081,449.82457 L 449.48081,495.42544 L 450.08169,495.42544 L 450.08169,449.82457 L 449.48081,449.82457 z"
+       d="M 449.48081,449.82457 L 449.48081,495.42544 L 476.68666,495.42544 L 476.68666,449.82457 L 449.48081,449.82457 z"
        id="rect2383"
-       inkscape:export-filename="/home/jaket/theme/images/tab.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96" />
+       inkscape:export-filename="C:\Documents and Settings\jtolbert\Desktop\theme-magazine\magazine-blog-theme\images\tab.png"
+       inkscape:export-xdpi="82.893227"
+       inkscape:export-ydpi="82.893227" />
   </g>
 </svg>
