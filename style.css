@@ -19,17 +19,18 @@ body {
 	/* original - height: 80px/5em; */
 	/*height: 146px;*/
 	height: 100%;
-	background-color: #808080;
-	color: #D3D3D3;
+	color: #4E4E4E;
 	/*background-img:
 		url(' '); */
 	}
 
 .header h1 {
-	font-size: 4em;
-	padding: .5em 0 0 1em;
+	font-size: 5em;
+	padding: 0.15em 0 0.15em 0.25em;
 	font-family: Droid Serif,Georgia,Times,serif;
 	margin-bottom: 0;
+	margin-top: .2em;
+	border-top: 1px solid silver;
 	}
 
 /* Header Tabs */
@@ -40,10 +41,12 @@ ul.tabs  {
 	background-image: 
 		url(images/tab.png);
 	padding: .5em 0;
-	color: black;
+	/*color: black;*/
 	margin-left: 0;
 	height: 100%;
 	margin-bottom: 0;
+	border-top: 1px solid silver;
+	border-bottom: 1px solid silver;
 	}
 
 .tabs li {
@@ -111,6 +114,7 @@ li#searchtab {
 	font-family: Droid Serif,Georgia,Times,serif;
 	padding-top: 1em;
 	border-top: 1px solid silver;
+	color: #4E4E4E;
 	margin-top: .8em;
 	}
 
@@ -187,6 +191,7 @@ li#searchtab {
 	list-style: none;
 	margin: 0;
 	padding: 0;
+	border: 1px solid silver;
 	}
 
 .categories a {
@@ -196,6 +201,7 @@ li#searchtab {
 		url('images/transp.png');
 	width: 4em;
 	font-weight: bold;
+	color: #4E4E4E;
 	/*
 	background-img:
 		url ( ' .jpg');

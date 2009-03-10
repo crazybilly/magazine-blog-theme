@@ -1,14 +1,22 @@
 To Do
 
-other space savings?
-	get boxes tighter (and closer to top)
-embiggen text in tabs?
+embiggen sidebar
 tighten the grid
 	wrap sidebar contents in divs (or class the <h3>s)
 		then align to grid
 	figure out search bar
-	align h1 to grid
+	figure out rest of tabs (current tab?)
 
-find pics
-create header img
+link colors?
+	a 4e4e4e, bold
+	hover bdbdbd, bold
+	visited 7d7d7d bold?
+
+start on normal pages
+	where does the image go?
+	drop cap
+
+
+
+
 
