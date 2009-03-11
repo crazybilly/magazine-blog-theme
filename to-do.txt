@@ -1,9 +1,9 @@
 To Do
 
-embiggen sidebar
 tighten the grid
 	wrap sidebar contents in divs (or class the <h3>s)
 		then align to grid
+	  WAIT ON THIS - need to see how it comes out of the php/db
 	figure out search bar
 	figure out rest of tabs (current tab?)
 
@@ -14,7 +14,9 @@ link colors?
 
 start on normal pages
 	where does the image go?
-	drop cap
+	tighten up the vertical rythm
+	list, blockquotes, images all need styles
+	
 
 
 

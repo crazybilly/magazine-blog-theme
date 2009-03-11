@@ -31,6 +31,7 @@ body {
 	margin-bottom: 0;
 	margin-top: .2em;
 	border-top: 1px solid silver;
+	background-color: #FDFDFD;
 	}
 
 /* Header Tabs */
@@ -102,14 +103,15 @@ li#searchtab {
 /*  Sidebar  */
 
 .sidebar {
-	width: 25em;
+	width: 26em;
 	float: right;
 	font-size: 9pt;
 	padding-top: 1em;
+	background-color: #FDFDFD;
 
 	}
 
-.sidebar h3 {
+.sidebar h2 {
     font-size: 1.5em;
 	font-family: Droid Serif,Georgia,Times,serif;
 	padding-top: 1em;
@@ -118,7 +120,7 @@ li#searchtab {
 	margin-top: .8em;
 	}
 
-.sidebar div > h3:first-child {
+.sidebar div > h2:first-child {
 	padding-top: 0;
 	border-top: 0;
 	margin-top: 0;
@@ -128,7 +130,7 @@ li#searchtab {
 
 #sidebarleft {
 	/*float: left;*/
-	width: 13em;
+	width: 13.5em;
 	border-right: 1px solid silver;
 	padding-right: .7em;
 	margin-right: -10em;
@@ -155,7 +157,7 @@ li#searchtab {
 
 #sidebarright {
 	float: right;
-	width: 10em;
+	width: 10.5em;
 	margin: 0;
 	}
 
@@ -168,14 +170,28 @@ li#searchtab {
 	 * height: 544px/34em;
 	 */
 	width: 620px;
-	height: 490px;
 	float: left;
+	margin-bottom: 1.45em;
 	}
 
-/* Label for category pics
-	---needs positioning as well --*/
+/*this keeps the footer from getting pushed down
+ * on the index page; be sure to add it in the php/html 
+ */
+#index {
+	height: 490px;
+	}
+	
+
+/* For category pics for index */
 
 .categories ul {
+	display: inline;
+	margin: 0;
+	padding: 0;
+	max-height: 490px;
+	}
+
+ul.categories {
 	display: inline;
 	margin: 0;
 	padding: 0;
@@ -251,10 +267,80 @@ li#searchtab {
 		left: 316px;
 	}
 		
-
-
 /* ---end category pics: -- */
 
+/* Actual Post Content
+ *
+ */
+
+/*how do I want to do the backgrounds? */
+.location {
+}
+
+	/*pics for categories
+	#post-linux {
+		background-image:
+			url('images/linux.jpg');
+		background-repeat: no-repeat;
+		}*/
+
+.location h2 {
+	font-size: 3.45em;
+	margin: .25em 0;
+	border-top: 1px solid silver;
+	border-bottom: 1px solid silver;
+}
+.post {
+
+}
+
+.post h2,h4 {
+	font-family: Droid Serif,Georgia,Times,serif;
+}
+
+.post h2 {
+	font-size: 2.45em;
+	border-bottom: 1px solid silver;
+	margin-top: .35em;
+	width: 75%;
+}
+
+.post h4 {
+	margin-top: .2em;
+	margin-bottom: 1em;
+	margin-left: 1em;
+}
+
+.post-content {
+
+}
+
+.post-content p {
+	line-height: 1.5;
+	margin: .666em 0;
+}
+
+/* drop caps for post content */
+.post-content p:first-letter {
+	font-size: 7em;
+	color: #4E4E4E;
+	font-family: Droid Serif,Georgia,Times,serif;
+	float:left;
+	width: 100%;
+	margin: 0 .03em 0em 0;
+	}
+
+/*un-drop cap any following p */
+.post-content * + p:first-letter {
+	font-size: inherit;
+	color: black;
+	font: inherit;
+	float: none;
+	}
+
+/* Footer
+ *
+ */
 
 .footer {
 	/*height: 80px/5em;*/

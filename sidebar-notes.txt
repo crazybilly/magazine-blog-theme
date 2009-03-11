@@ -1,0 +1,87 @@
+each sidebar item is a li
+probably should do each sidebar as its own ul, not its own div
+sidebar items should be headed w/ <h2>s
+don't put any class/ids w/in the inner uls
+
+
+<em>In functions</em>
+<?php
+if ( function_exists('register_sidebar') )
+register_sidebar(array(
+'name' => 'Left Sidebar',
+'before_widget' => '',
+'after_widget' => '',
+'before_title' => '<h2>',
+'after_title' => '</h2>',
+));
+if ( function_exists('register_sidebar') )
+register_sidebar(array(
+'name' => 'Right Sidebar',
+'before_widget' => '',
+'after_widget' => '',
+'before_title' => '<h2>',
+'after_title' => '</h2>',
+));
+?>
+
+
+<b>In Theme</b>
+At the top of your sidebar (or where you want widgets to start being displayed) you place the following code.
+
+<?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar() ) : ?>
+
+The sidebar stuff goes in between (including, I think the content you want to fall back on, see defaults below), and then…
+
+<?php endif; ?>
+
+
+<b>Default Widget structure (will be replaced by widget if exists)</b>
+
+<ul id="sidebar">
+ <li id="about">
+  <h2>About</h2>
+  <p>This is my blog.</p>
+ </li>
+ <li id="links">
+  <h2>Links</h2>
+  <ul>
+   <li><a href="http://example.com">Example</a></li>
+  </ul>
+ </li>
+</ul>
+
+
+<b>How my theme's laid out</b>
+
+<div class="sidebar">
+	<div id="sidebarleft"> <!--maybe make this just the ul, in display block?-->
+		<ul>
+			<li id="summary">
+				<h3>Recently</h3>
+					blah blah blah
+					<p>
+					blah blah blah
+					blah blah blah
+					<p>
+					blah blah blah
+					<p>
+			</li>
+			<li id="twitter">
+				<h3>Twitter</h3>
+					<!--need a follow me link-->
+					<!--couple extraneous divs-->
+					<li> blah blah blah</li>
+					<li>blah blah blah</li>
+					<li>blah blah blah</li>
+			</li>
+		</ul>
+
+		<div class="sidebarright">
+			<ul>
+				<li class="about">  <!--class?  id? -->
+					<h2>About</h2>
+					<p>blah blah blah</p>
+				</li>
+				
+				<li id="wp-cumulus" class="widget wp_cumulus_widget">
+					<h2 class>Tags
