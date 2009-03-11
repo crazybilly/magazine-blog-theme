@@ -1,0 +1,36 @@
+body { font-size:87.5%; line-height:1.5; }
+h1, h2, h3 { margin-top:0; margin-bottom:0; }
+h1 { font-size:4.23077em; padding:1.55334em 0; }
+h2 { font-size:2.61538em; padding:1.54281em 0; }
+h3 { font-size:1.61538em; padding:1.57002em 0; }
+
+
+from em calculator
+
+h4 {
+	font-size: 1.642857em;
+	line-height: 0.913043em;
+	margin-top: 0.75em;
+	margin-bottom: 0.75em;
+}
+
+h2 {
+	font-size: 2.642857em;
+	line-height: 0.567568em;
+	margin-top: 0.283784em;
+	margin-bottom: 0.283784em;
+	padding-top: 0.283784em;
+	padding-bottom: 0.283784em;
+}
+
+h1 {
+	font-size: 4.214286em;
+	line-height: 0.355932em;
+	margin-top: 0.177966em;
+	margin-bottom: 0em;
+	padding-top: 0.177966em;
+	padding-bottom: 0.177966em;
+}
+
+
+

@@ -4,8 +4,13 @@
 	padding: 0;
 }
 
+h1,h2,h3,h4,h5 {
+	font-variant: small-caps;
+}
+
 body {
-	font-size: 90%;
+	font-size: 87.5%;
+	line-height: 1.5;
 	font-family: Droid Sans,Lucida Grande,Trebuchet MS, Arial, sans-serif;
 	}
 
@@ -25,11 +30,11 @@ body {
 	}
 
 .header h1 {
-	font-size: 5em;
-	padding: 0.15em 0 0.15em 0.25em;
+	font-size: 4.23077em; 
+	padding: 0.1779em 0 0.15em 0.1779em; 
 	font-family: Droid Serif,Georgia,Times,serif;
 	margin-bottom: 0;
-	margin-top: .2em;
+	margin-top: .1779em;
 	border-top: 1px solid silver;
 	background-color: #FDFDFD;
 	}
@@ -285,10 +290,11 @@ ul.categories {
 		}*/
 
 .location h2 {
-	font-size: 3.45em;
-	margin: .25em 0;
+	font-size: 2.61538em; 
+	margin: .2835em 0;
 	border-top: 1px solid silver;
 	border-bottom: 1px solid silver;
+	font-family: Droid Serif,Georgia,Times,serif;
 }
 .post {
 
@@ -299,16 +305,14 @@ ul.categories {
 }
 
 .post h2 {
-	font-size: 2.45em;
+	font-size: 1.61538em; 
 	border-bottom: 1px solid silver;
 	margin-top: .35em;
 	width: 75%;
 }
 
 .post h4 {
-	margin-top: .2em;
-	margin-bottom: 1em;
-	margin-left: 1em;
+	margin: 0 0 0.464287em 1em; 
 }
 
 .post-content {
@@ -316,9 +320,20 @@ ul.categories {
 }
 
 .post-content p {
-	line-height: 1.5;
 	margin: .666em 0;
 }
+
+.post-content ul {
+	margin-left: 2.5em;
+}
+
+.post-content blockquote {
+	margin-left: 2.5em;
+	border-left: 1px solid silver;
+	padding-left: 1em;
+	clear: left;
+}
+
 
 /* drop caps for post content */
 .post-content p:first-letter {
@@ -327,12 +342,12 @@ ul.categories {
 	font-family: Droid Serif,Georgia,Times,serif;
 	float:left;
 	width: 100%;
-	margin: 0 .03em 0em 0;
+	margin: 0 .03em .05em 0;
 	}
 
 /*un-drop cap any following p */
 .post-content * + p:first-letter {
-	font-size: inherit;
+	font-size: 1em;
 	color: black;
 	font: inherit;
 	float: none;

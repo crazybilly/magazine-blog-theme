@@ -7,6 +7,9 @@ tighten the grid
 	figure out search bar
 	figure out rest of tabs (current tab?)
 
+	I moved line-height to the body
+		so padding needs to be reduced on h1, h2, etc
+
 link colors?
 	a 4e4e4e, bold
 	hover bdbdbd, bold
@@ -15,7 +18,11 @@ link colors?
 start on normal pages
 	where does the image go?
 	tighten up the vertical rythm
+		body done
+		get sidebar
 	list, blockquotes, images all need styles
+
+	drop caps are a mess on IE, Opera and Webkit (margins, etc)
 	
 
 
