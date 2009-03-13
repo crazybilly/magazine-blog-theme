@@ -1,11 +1,19 @@
 <?php
+
+//grab header.php
 get_header();
-if (have_posts()) :
-   while (have_posts()) :
-      the_post();
-      the_content();
-   endwhile;
-endif;
+
+?>
+
+
+			<ul class="categories">
+				<? wp_list_categories('title_li='); ?>
+			</ul>
+
+		</div>
+
+
+<?
 //get_sidebar();
 get_footer(); 
 ?>

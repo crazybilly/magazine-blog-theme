@@ -34,3 +34,7 @@
 			</ul>
 		</div>
 
+		<div class="contentoutside">
+		<div class="content" 
+			<? if (is_front_page() ) { ?> id="index" <? } ?> >
+

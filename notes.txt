@@ -15,8 +15,11 @@ category templates: http://codex.wordpress.org/Category_Templates
 
 
 The list of files you need:
-    * style.css
+    X style.css
     * index.php
+		* header.php
+		* sidebar.php
+		* footer.php
     * home.php
     * single.php
     * page.php
@@ -39,3 +42,6 @@ li {
 	width: 295px;
 	height: 121px;
 	position: relative; /* remember, it's relative to where it would be */
+
+
+Maybe do the splash page as a normal page and use WP to point to it?
