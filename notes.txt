@@ -14,6 +14,23 @@ template heirarchy: http://codex.wordpress.org/Template_Hierarchy
 category templates: http://codex.wordpress.org/Category_Templates
 
 
+The list of files you need:
+    * style.css
+    * index.php
+    * home.php
+    * single.php
+    * page.php
+    * archive.php
+    * category.php
+    * search.php
+    * 404.php
+    * comments.php
+    * comments-popup.php
+    * author.php
+    * date.php
+
+
+
 
 Notes on positioning category images/titles:
 

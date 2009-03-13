@@ -15,6 +15,30 @@ link colors?
 	hover bdbdbd, bold
 	visited 7d7d7d bold?
 
+	note that h1 will need restyle b/c it'll become a link
+		also the tabs
+
+Where will bloginfo('description') go? (h2? subtitle?)
+
+Can I make my 'about' link better than a static link?
+	if not, make sure you get the url right
+
+Make 'Pages a drop down? Gonna have to figure out a better way to do this one
+	maybe this will work? I doubt it, but maybe
+		<a href="<? get_posts ('post_type=pages') ?>">
+	or maybe just create a pages.php with  get_posts ('post_type=pages')
+s the content
+
+	same for Archives? not sure what/how that page will work either.
+
+write in function to select tabs
+
+	class = "<?if (is_home()) {
+			?>selected<?
+			else {
+			?>unselected<?}?>"
+		
+
 start on normal pages
 	where does the image go?
 	tighten up the vertical rythm
