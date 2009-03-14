@@ -29,10 +29,6 @@ h1,h2,h3,h4,h5 {
 	color: #4E4E4E;
 	}
 
-a img {
-	border: none;
-	}
-
 .container {
 	margin-left: 1em;
 	width: 976px;
@@ -162,12 +158,7 @@ li#searchtab {
 	border-right: 1px solid silver;
 	padding-right: .7em;
 	margin-right: -10em;
-	float: left;
 	}
-
-	a#follow {
-		font-size: .9em;
-		}
 
 	ul#twitter_update_list {
 		list-style: none;
@@ -263,39 +254,39 @@ ul.categories {
  *
  *  -----------------------*/
 
-.cat-item-3 {
+#cat-linux {
 	background-image:
 		url('images/linux.jpg');
 		top: 14px;
 		}
 
-.cat-item-4 {
+#cat-religion {
 	background-image:
 		url('images/religion.jpg');
 	top: -107px;
 	left: 316px
 	}
 
-.cat-item-6 {
+#cat-tech {
 	background-image:
 		url('images/tech.jpg');
 	top: -84px;
 	}
 	
-.cat-item-8 {
+#cat-art {
 	background-image:
 		url('images/art.jpg');
 	top: -205px;
 	left: 316px
 	}
 	
-.cat-item-10 {
+#cat-links {
 	background-image:
 		url('images/links.jpg');
 	top: -183px;
 	}
 
-.cat-item-1 {
+#cat-life {
 	background-image:
 		url('images/life.jpg');
 	top: -304px;
@@ -492,10 +483,9 @@ ol.commentlist {
 	height: 80px;
 	font-size: .8em;
 	line-height: 1.5em;
-	clear: left;
+	clear: both;
 	padding: 1em 0 .5em 0;
 	border-top: 1px solid silver;
-	width: 613px;
 	}
 
 .footer img {
