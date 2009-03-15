@@ -16,10 +16,10 @@ category templates: http://codex.wordpress.org/Category_Templates
 
 The list of files you need:
     X style.css
-    * index.php
-		* header.php
-		* sidebar.php
-		* footer.php
+   	X index.php
+		X header.php
+		X sidebar.php
+		X footer.php
     * home.php
     * single.php
     * page.php

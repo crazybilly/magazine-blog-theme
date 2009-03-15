@@ -53,6 +53,13 @@ a img {
 	background-color: #FDFDFD;
 	}
 
+	/* get colors back to normal for h1 and the tabs */
+	h1 a, .tabs a {
+		text-decoration: none;
+		color: #4E4E4E;
+		}
+
+
 /* -------------------------------
  *
  * Header Tabs 
