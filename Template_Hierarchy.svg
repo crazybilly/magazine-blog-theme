@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg2"
+   sodipodi:version="0.32"
+   inkscape:version="0.46"
+   width="753"
+   height="600"
+   version="1.0"
+   sodipodi:docname="Template_Hierarchy.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape">
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs5">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       id="perspective9" />
+  </defs>
+  <sodipodi:namedview
+     inkscape:window-height="1034"
+     inkscape:window-width="1469"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     guidetolerance="10.0"
+     gridtolerance="10.0"
+     objecttolerance="10.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base"
+     showgrid="false"
+     inkscape:zoom="1.0866667"
+     inkscape:cx="443.14519"
+     inkscape:cy="346.74017"
+     inkscape:window-x="22"
+     inkscape:window-y="22"
+     inkscape:current-layer="svg2" />
+  <image
+     sodipodi:absref="../Template_Hierarchy.png"
+     width="753"
+     height="600"
+     id="image11"
+     x="0"
+     y="0"
+     xlink:href="./Template_Hierarchy.png" />
+  <text
+     xml:space="preserve"
+     style="font-size:32px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+     x="608.28223"
+     y="285.27606"
+     id="text2384"><tspan
+       sodipodi:role="line"
+       id="tspan2386"
+       x="608.28223"
+       y="285.27606">Single page</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:32px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+     x="306.44171"
+     y="214.41718"
+     id="text2388"><tspan
+       sodipodi:role="line"
+       id="tspan2390"
+       x="306.44171"
+       y="214.41718">Category Splash</tspan></text>
+  <path
+     sodipodi:type="arc"
+     style="opacity:0.77511962;fill:#cbcb14;fill-opacity:0.37096773000000000;stroke:#efff0a;stroke-width:1.17200005000000007;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="path2392"
+     sodipodi:cx="714.57056"
+     sodipodi:cy="307.82208"
+     sodipodi:rx="82.361961"
+     sodipodi:ry="46.472393"
+     d="M 796.93252,307.82208 A 82.361961,46.472393 0 1 1 632.2086,307.82208 A 82.361961,46.472393 0 1 1 796.93252,307.82208 z" />
+  <path
+     sodipodi:type="arc"
+     style="opacity:0.77511962;fill:#cbcb14;fill-opacity:0.37096773;stroke:#efff0a;stroke-width:1.17200005;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="path3164"
+     sodipodi:cx="245.70552"
+     sodipodi:cy="203.37424"
+     sodipodi:rx="83.742332"
+     sodipodi:ry="17.484663"
+     d="M 329.44785,203.37424 A 83.742332,17.484663 0 1 1 161.96319,203.37424 A 83.742332,17.484663 0 1 1 329.44785,203.37424 z" />
+  <path
+     sodipodi:type="arc"
+     style="opacity:0.77511962;fill:#cbcb14;fill-opacity:0.37096773;stroke:#efff0a;stroke-width:1.17200005;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="path3168"
+     sodipodi:cx="245.70552"
+     sodipodi:cy="203.37424"
+     sodipodi:rx="83.742332"
+     sodipodi:ry="17.484663"
+     d="M 329.44785,203.37424 A 83.742332,17.484663 0 1 1 161.96319,203.37424 A 83.742332,17.484663 0 1 1 329.44785,203.37424 z"
+     transform="translate(-11.96319,-191.41105)" />
+  <path
+     sodipodi:type="arc"
+     style="opacity:0.77511962;fill:#cbcb14;fill-opacity:0.37096773;stroke:#efff0a;stroke-width:1.17200005;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="path3170"
+     sodipodi:cx="245.70552"
+     sodipodi:cy="203.37424"
+     sodipodi:rx="83.742332"
+     sodipodi:ry="17.484663"
+     d="M 329.44785,203.37424 A 83.742332,17.484663 0 1 1 161.96319,203.37424 A 83.742332,17.484663 0 1 1 329.44785,203.37424 z"
+     transform="translate(146.31902,-140.79755)" />
+  <text
+     xml:space="preserve"
+     style="font-size:32px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+     x="436.0665"
+     y="12.509103"
+     id="text3172"><tspan
+       sodipodi:role="line"
+       id="tspan3174"
+       x="436.0665"
+       y="12.509103">can i pull the  id/tag out </tspan><tspan
+       sodipodi:role="line"
+       x="436.0665"
+       y="52.509098"
+       id="tspan3176">of the URL somehow?</tspan></text>
+  <path
+     sodipodi:type="arc"
+     style="opacity:0.77511962;fill:#cbcb14;fill-opacity:0.37096773;stroke:#efff0a;stroke-width:1.17200005;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="path3178"
+     sodipodi:cx="245.70552"
+     sodipodi:cy="203.37424"
+     sodipodi:rx="83.742332"
+     sodipodi:ry="17.484663"
+     d="M 329.44785,203.37424 A 83.742332,17.484663 0 1 1 161.96319,203.37424 A 83.742332,17.484663 0 1 1 329.44785,203.37424 z"
+     transform="translate(316.56442,-117.79141)" />
+  <path
+     sodipodi:type="arc"
+     style="opacity:0.77511962;fill:#cbcb14;fill-opacity:0.37096773;stroke:#efff0a;stroke-width:1.17200005;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="path3180"
+     sodipodi:cx="245.70552"
+     sodipodi:cy="203.37424"
+     sodipodi:rx="83.742332"
+     sodipodi:ry="17.484663"
+     d="M 329.44785,203.37424 A 83.742332,17.484663 0 1 1 161.96319,203.37424 A 83.742332,17.484663 0 1 1 329.44785,203.37424 z"
+     transform="translate(0.9202461,144.47853)" />
+  <path
+     sodipodi:type="arc"
+     style="opacity:0.77511962;fill:#cbcb14;fill-opacity:0.37096773;stroke:#efff0a;stroke-width:1.17200005;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="path3182"
+     sodipodi:cx="245.70552"
+     sodipodi:cy="203.37424"
+     sodipodi:rx="83.742332"
+     sodipodi:ry="17.484663"
+     d="M 329.44785,203.37424 A 83.742332,17.484663 0 1 1 161.96319,203.37424 A 83.742332,17.484663 0 1 1 329.44785,203.37424 z"
+     transform="translate(-7.3619624,190.49079)" />
+  <text
+     xml:space="preserve"
+     style="font-size:32px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+     x="275.15338"
+     y="424.23312"
+     id="text3184"><tspan
+       sodipodi:role="line"
+       id="tspan3186"
+       x="275.15338"
+       y="424.23312">low priority</tspan></text>
+  <path
+     sodipodi:type="arc"
+     style="opacity:0.77511962;fill:#cbcb14;fill-opacity:0.37096773;stroke:#efff0a;stroke-width:1.17200005;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="path2395"
+     sodipodi:cx="245.70552"
+     sodipodi:cy="203.37424"
+     sodipodi:rx="83.742332"
+     sodipodi:ry="17.484663"
+     d="M 329.44785,203.37424 A 83.742332,17.484663 0 1 1 161.96319,203.37424 A 83.742332,17.484663 0 1 1 329.44785,203.37424 z"
+     transform="translate(143.55827,51.533749)" />
+  <text
+     xml:space="preserve"
+     style="font-size:32px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+     x="339.28381"
+     y="283.43466"
+     id="text2397"><tspan
+       sodipodi:role="line"
+       id="tspan2399"
+       x="339.28381"
+       y="283.43466">gotta do this for</tspan><tspan
+       sodipodi:role="line"
+       x="339.28381"
+       y="323.43466"
+       id="tspan2401">comments</tspan></text>
+</svg>
