@@ -17,6 +17,10 @@ Author URI: http://listento.jaketolbert.com
 	padding: 0;
 }
 
+.hidden,*.hidden {
+	display: none;
+}
+
 
 body {
 	font-size: 87.5%;
@@ -317,7 +321,12 @@ ul.categories {
  *-----------------------*/
 
 
-/*how do I want to do the backgrounds? */
+/* gonna need to adjust the borders, etc here
+ * need to add: #search_string  (it's an h3)
+ * put the borders on the div, not the h2
+ */
+
+/* Location div */
 .location {
 }
 
@@ -330,6 +339,8 @@ ul.categories {
 	color: black;
 	}
 
+
+/* Start the post */
 .post {
 
 	}
