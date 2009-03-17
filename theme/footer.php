@@ -10,4 +10,5 @@
 </div>
 </body>
 </html>
+<? wp_footer(); ?>
 
