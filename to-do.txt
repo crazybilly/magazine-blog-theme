@@ -4,19 +4,16 @@ tighten the grid
 	wrap sidebar contents in divs (or class the <h3>s)
 		then align to grid
 	  WAIT ON THIS - need to see how it comes out of the php/db
+	  	need to get the widgets right
 	figure out search bar
 	figure out rest of tabs (current tab?)
 
-	I moved line-height to the body
-		so padding needs to be reduced on h1, h2, etc
 
-link colors?
+link colors? I THINK LEAVE THE DEFAULTS
 	a 4e4e4e, bold
 	hover bdbdbd, bold
 	visited 7d7d7d bold?
 
-	note that h1 will need restyle b/c it'll become a link
-		also the tabs
 
 Where will bloginfo('description') go? (h2? subtitle?)
 
@@ -44,12 +41,7 @@ start on normal pages
 	tighten up the vertical rythm
 		body done
 		get sidebar
-	list, blockquotes, images all need styles
 
 	drop caps are a mess on IE, Opera and Webkit (margins, etc)
 	
-
-
-
-
-
+Any way to figure out what page I'm actually on?

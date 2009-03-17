@@ -19,6 +19,7 @@ if (have_posts()) :
 
 </div>
 
+<?
 get_sidebar();
 get_footer(); 
 ?>
