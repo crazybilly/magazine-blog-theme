@@ -29,18 +29,38 @@ if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 	</div>
 
 		<div class="post-meta">
-			Posted in <? the_category (', ') ?> | <a href="<? comments_link(); ?>"><? comments_number() ?></a>
+			Posted in <? the_category (', ') ?></a>
 						<br>
 				<? the_tags('Tags:',', '); ?>
 		</div>
+
+
+		<div class="comments">
+			<h3>Comments</h3>
+		
+			<?
+				//comment-author (link to their url)
+				//comment-date
+
+				//coment-text
+
+			?>
+
+		</div>
+
+
+
 
 <?//close the loop
 endwhile; else: ?>
 	<p><?php _e('Sorry, no posts matched your criteria.'); ?></p>
 <?php endif; ?>
 
+<!--post-->
 </div>
+<!--content-->
 </div>
+<!--outside content-->
 </div>
 
 <?

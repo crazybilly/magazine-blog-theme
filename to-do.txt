@@ -45,3 +45,5 @@ start on normal pages
 	drop caps are a mess on IE, Opera and Webkit (margins, etc)
 	
 Any way to figure out what page I'm actually on?
+
+Are my divs wrapped right around the loop? class="post" should wrap the loop...does it?
