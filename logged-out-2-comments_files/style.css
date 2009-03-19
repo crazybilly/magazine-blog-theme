@@ -1,0 +1,523 @@
+/*
+Theme Name: Simple Magazine
+Theme URI: http://listento.jaketolbert.com
+Description: a simple magazine-style theme
+Version: 0.1
+Author: crazybilly
+Author URI: http://listento.jaketolbert.com
+*/
+
+
+
+
+
+/* all assumptions are on 16px em */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.hidden,*.hidden {
+	display: none;
+}
+
+
+body {
+	font-size: 87.5%;
+	line-height: 1.5;
+	font-family: Droid Sans,Lucida Grande,Trebuchet MS, Arial, sans-serif;
+	}
+
+h1,h2,h3,h4,h5 {
+	font-variant: small-caps;
+	color: #4E4E4E;
+	}
+
+a img {
+	border: none;
+	}
+
+.container {
+	margin-left: 1em;
+	width: 976px;
+	}
+
+.header {
+	height: 100%;
+	color: #4E4E4E;
+	}
+
+.header h1 {
+	font-size: 4.23077em; 
+	padding: 0.1779em 0 0.15em 0.1779em; 
+	font-family: Droid Serif,Georgia,Times,serif;
+	margin-bottom: 0;
+	margin-top: .1779em;
+	border-top: 1px solid silver;
+	background-color: #FDFDFD;
+	}
+
+	/* get colors back to normal for h1 and the tabs */
+	h1 a, .tabs a {
+		text-decoration: none;
+		color: #4E4E4E;
+		}
+
+
+/* -------------------------------
+ *
+ * Header Tabs 
+ *
+ * -------------------------------*/
+
+ul.tabs  {
+	display: block;
+	list-style: none;
+	background-image: 
+		url(images/tab.png);
+	padding: .5em 0;
+	margin-left: 0;
+	height: 100%;
+	margin-bottom: 0;
+	border-top: 1px solid silver;
+	border-bottom: 1px solid silver;
+	}
+
+.tabs li {
+	font-size: 1.45em;
+	border-right: 1px solid silver;
+	padding-right: 1em;
+	padding-left: 1em;
+	display: inline;
+	list-style: none;
+	font-family: Droid Serif,Georgia,Times,serif;
+	}
+
+.tabs li:last-child {
+	border-right: 0;
+}
+
+
+li#archivetab  {
+	padding-left: 1em;
+	}
+
+li#subscribetab {
+	padding-left: 1em;
+	}
+
+	#subscribetab img {
+		padding-right: .1em;
+		margin-right: .4em;
+		vertical-align: baseline;
+		width: 1em;
+		}
+
+li#searchtab {
+	text-align: right;
+	margin-left: 1.5em;}
+
+	#searchbar {
+		color: silver;
+		font-size: .8em;
+		font-family: Droid Serif,Georgia,Times,serif;
+		}
+
+	#searchsubmit {
+		font-size: .9em;
+		font-family: Droid Serif,Georgia,Times,serif;
+		}
+
+/* -----------------------
+ *
+ * Content 
+ *
+ * -----------------------*/
+
+.contentoutside {
+	clear: both;
+}
+
+
+/* -----------------------  
+ *
+ * Sidebar  
+ *
+ * ----------------------- */
+
+.sidebar {
+	width: 26em;
+	float: right;
+	font-size: 9pt;
+	padding-top: 1em;
+	background-color: #FDFDFD;
+	}
+
+.sidebar h2 {
+    font-size: 1.5em;
+	font-family: Droid Serif,Georgia,Times,serif;
+	padding-top: 1em;
+	border-top: 1px solid silver;
+	color: #4E4E4E;
+	margin-top: .8em;
+	}
+
+.sidebar div > h2:first-child {
+	padding-top: 0;
+	border-top: 0;
+	margin-top: 0;
+	}
+
+#sidebarleft {
+	width: 13.5em;
+	border-right: 1px solid silver;
+	padding-right: .7em;
+	margin-right: -10em;
+	float: left;
+	}
+
+	a#follow {
+		font-size: .9em;
+		}
+
+	ul#twitter_update_list {
+		list-style: none;
+		margin-left: 0;
+		padding-left: 0;
+		}
+
+	#twitter_update_list li {
+		list-style: none;
+		margin-left: 0;
+		padding-left: 0;
+		padding-bottom: .5em;
+		border-bottom: 1px solid #f2f2f2;
+		padding-top: .8em;
+		}		
+
+		#twitter_update_list li:last-child {
+			border-bottom: none;
+			}
+
+#sidebarright {
+	float: right;
+	width: 10.5em;
+	margin: 0;
+	}
+
+/* -----------------------
+ *
+ * Post Content Area 
+ *
+ * -----------------------*/
+
+.content {
+	width: 620px;
+	float: left;
+	margin-bottom: 1.45em;
+	}
+
+/*this keeps the footer from getting pushed down
+ * on the index page; be sure to add it in the php/html 
+ */
+#index {
+	height: 490px;
+	}
+	
+
+/* -----------------------
+ *
+ * For category pics for index 
+ *
+ * -----------------------*/
+
+.categories ul {
+	display: inline;
+	margin: 0;
+	padding: 0;
+	max-height: 490px;
+	}
+
+ul.categories {
+	display: inline;
+	margin: 0;
+	padding: 0;
+	}
+
+.categories li {
+	font-size: 15pt;
+	display: block;
+	width: 295px;
+	height: 121px;
+	background-color: gray;
+	position: relative;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	border: 1px solid silver;
+	}
+
+.categories a {
+	display: block;
+	padding: 0.3em 0.3em 0.3em 1em;
+	background-image: 
+		url('images/transp.png');
+	width: 4em;
+	font-weight: bold;
+	color: #4E4E4E;
+	}
+
+
+/*  -----------------------
+ *
+ *  Pics for Category Links on index
+ *
+ *  -----------------------*/
+
+.cat-item-3 {
+	background-image:
+		url('images/linux.jpg');
+		top: 14px;
+		}
+
+.cat-item-4 {
+	background-image:
+		url('images/religion.jpg');
+	top: -107px;
+	left: 316px
+	}
+
+.cat-item-6 {
+	background-image:
+		url('images/tech.jpg');
+	top: -84px;
+	}
+	
+.cat-item-8 {
+	background-image:
+		url('images/art.jpg');
+	top: -205px;
+	left: 316px
+	}
+	
+.cat-item-10 {
+	background-image:
+		url('images/links.jpg');
+	top: -183px;
+	}
+
+.cat-item-1 {
+	background-image:
+		url('images/life.jpg');
+	top: -304px;
+	left: 316px;
+	}
+		
+
+/* -----------------------
+ *
+ * Actual Post Content
+ *
+ *-----------------------*/
+
+
+/* gonna need to adjust the borders, etc here
+ * need to add: #search_string  (it's an h3)
+ * put the borders on the div, not the h2
+ */
+
+/* Location div */
+.location {
+}
+
+.location h2 {
+	font-size: 2.61538em; 
+	margin: .2835em 0;
+	border-top: 1px solid silver;
+	border-bottom: 1px solid silver;
+	font-family: Droid Serif,Georgia,Times,serif;
+	color: black;
+	}
+
+
+/* Start the post */
+.post {
+
+	}
+
+.post h2,h4 {
+	font-family: Droid Serif,Georgia,Times,serif;
+	}
+
+.post h2 {
+	font-size: 1.61538em; 
+	border-bottom: 1px solid silver;
+	margin-top: .35em;
+	width: 75%;
+	}
+
+.post h4 {
+	margin: 0 0 0.464287em 1em; 
+	}
+
+.post-content {
+	padding-right: 1.5em;
+	text-align: justify;
+
+	}
+
+.post-content p {
+	margin: .666em 0;
+	}
+
+.post-content ul {
+	margin-left: 2.5em;
+	clear: left;
+	}
+
+.post-content blockquote {
+	margin-left: 2.5em;
+	border-left: 1px solid silver;
+	padding-left: 1em;
+	clear: left;
+	margin-top: .1em;
+	}
+
+/* -----------------------
+ *
+ * Post Meta
+ *
+ * ----------------------- */
+
+
+.post-meta {
+	font-size: .8em;
+	width: 50%;
+	border-top: 1px solid silver;
+	padding: .875em 0 .875em 1.2em;
+
+	}
+
+/* drop caps for post content
+ *
+ * update: appears doing this a wp plugin (ie. php/javascript + spans) is the best way to do this.  Going to use this plugin:  http://wordpress.org/extend/plugins/drop-caps/ 
+ *
+ *
+
+.post-content p:first-letter {
+	font-size: 7em;
+	color: #4E4E4E;
+	font-family: Droid Serif,Georgia,Times,serif;
+	float:left;
+	width: 100%;
+	margin: 0 .03em .05em 0;
+	}
+
+un-drop cap any following p 
+.post-content * + p:first-letter {
+	font-size: 1em;
+	color: black;
+	font: inherit;
+	float: none;
+	}
+*/
+
+	.post-content .cap {
+		font-size: 6.84615em;
+		color: #4E4E4E;
+		font-family: Droid Serif,Georgia,Times,serif;
+		float:left;
+		line-height: 1em;
+		margin: -.1em .03em .05em 0;
+		}
+
+		.post-content p.first-child  {
+			margin-bottom: 1em;
+			}
+
+
+/* -----------------------
+ *
+ * Comment Form
+ *		hoping these are
+ *		the classes for the
+ *		default wp comments
+ * ----------------------- */
+
+/*this is the whole form div */
+#respond {
+	font-size: .9em;
+	
+	}
+
+/* this is the actual form itself */
+#commentform {
+	
+	}
+
+/* input box */
+#comment {
+	
+	}
+
+/* submit button */
+#submit {
+
+	}
+
+/* -----------------------
+ *
+ * Comment Display 
+ *
+ * -----------------------*/
+
+/*this is the comments header*/
+h3#comments {
+
+	}
+
+/*this is the actual comments, shows up as an ol*/
+ol.commentlist {
+
+	}
+
+.commentlist li {
+
+	}
+
+/* a div surrounding the commentor's name, avatar, etc */
+.comment-author {
+
+	}
+
+/* a div surrounding the date and 'edit' link */
+.comment-meta {
+
+	}
+
+/* the paragraphs of actual comment text */
+#comments p {
+
+	}
+
+/* -----------------------
+ *
+ * Footer
+ *
+ * -----------------------*/
+
+.footer {
+	height: 80px;
+	font-size: .8em;
+	line-height: 1.5em;
+	clear: left;
+	padding: 1em 0 .5em 0;
+	border-top: 1px solid silver;
+	width: 613px;
+	}
+
+.footer img {
+	width: 1em;
+	padding-right: .7em;
+	}
+

@@ -1,5 +1,4 @@
 <?php
-
 /*
 //default for one sidebar
 if ( function_exists('register_sidebar') )
@@ -90,4 +89,3 @@ function location () {
 
 
 ?>
-

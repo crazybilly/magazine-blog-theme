@@ -1,0 +1,41 @@
+/* These all need to tweaked to fit on the grid properly
+	right now, they're just rough estimates
+	You might have to create a comment template, too; 
+	at least */
+
+.comments h3 {
+	font-size: 1.5em;
+	margin-top: 1em;
+	width: 50%;
+	border-top: 1px solid silver;
+	font-family: Droid Serif,Georgia,Times,serif;
+	}
+
+h3#comments {
+	border-bottom: 1px solid silver;
+	margin-bottom: 1em;
+	width: 50%;
+	}	
+
+.commentlist li {
+	margin: 1.5em 0;
+	}
+
+.comment-author cite {
+	font-size: 1.3em;
+	font-style: normal;
+	}
+
+.comment-meta {
+	border-bottom: 1px solid silver;
+	margin-bottom: .5em;
+	width: 50%;
+	}
+
+.commentlist p {
+	margin: .5em 0;
+	}
+
+#respond h3 {
+	margin: .5em 0;
+	}

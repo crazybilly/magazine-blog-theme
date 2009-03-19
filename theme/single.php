@@ -1,4 +1,5 @@
 <?
+
 //grab header.php
 get_header();
 
@@ -34,9 +35,12 @@ if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 		</div>
 
 
+		<div class="comments">
+			<h3>Comments</h3>
 		
 			<?php comments_template(); ?>
 
+		</div>
 
 
 
