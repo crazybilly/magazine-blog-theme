@@ -24,13 +24,14 @@
 				<li><a href="<? bloginfo('url') ?>">Home</a></li>
 				<li><a href="<? bloginfo('url') ?>/page.php?id=36">About</a></li>
 				<li><a href="#">Pages</a></li>
+				<li id="archivetab">
 <select name=\"archive-dropdown\" onChange='document.location.href=this.options[this.selectedIndex].value;'> 
 
   <option value=\"\"><?php echo attribute_escape(__('Archives')); ?></option> 
 
 <?php wp_get_archives('type=monthly&format=option&show_post_count=1'); ?> </select>
 
-				<li id="archivetab"></li>
+				</li>
 				<li id="subscribetab"><a href="<? bloginfo('rss2_url'); ?>"><img src="<? bloginfo('stylesheet_directory')?>/images/rss.png">Subscribe</a></li>
 				<li id="searchtab">
 					<input type="text" id="searchbar" name="s" value="listen for..."/>

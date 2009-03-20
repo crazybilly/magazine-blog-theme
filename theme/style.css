@@ -37,6 +37,10 @@ a img {
 	border: none;
 	}
 
+a:visited {
+	color: #4E4E4E;
+	}
+
 .container {
 	margin-left: 1em;
 	width: 976px;
@@ -435,70 +439,69 @@ un-drop cap any following p
 			margin-bottom: 1em;
 			}
 
-
-/* -----------------------
+/* -------------------------
  *
- * Comment Form
- *		hoping these are
- *		the classes for the
- *		default wp comments
- * ----------------------- */
-
-/*this is the whole form div */
-#respond {
-	font-size: .9em;
-	
-	}
-
-/* this is the actual form itself */
-#commentform {
-	
-	}
-
-/* input box */
-#comment {
-	
-	}
-
-/* submit button */
-#submit {
-
-	}
-
-/* -----------------------
+ * Comments
  *
- * Comment Display 
+ * -------------------------
  *
- * -----------------------*/
+ * These all need to tweaked to fit on the grid properly
+	right now, they're just rough estimates
+	You might have to create a comment template, too; 
+	at least */
 
-/*this is the comments header*/
+.comments h3 {
+	font-size: 1.5em;
+	margin-top: 1em;
+	width: 50%;
+	font-family: Droid Serif,Georgia,Times,serif;
+	}
+
 h3#comments {
-
-	}
-
-/*this is the actual comments, shows up as an ol*/
-ol.commentlist {
-
-	}
+	margin-top: 0;
+	padding-left: 1em;
+	margin-bottom: 0.464287em;
+	width: 50%;
+	font-size: 1em;
+	}	
 
 .commentlist li {
-
+	margin: 1em 0;
+	list-style: none;
+	background-color: #FCFCFC;
+	border-top: 1px solid silver;
+	border-bottom: 1px solid silver;
+	padding: .5em;
 	}
 
-/* a div surrounding the commentor's name, avatar, etc */
-.comment-author {
-
+.comment-author cite {
+	font-size: 1.3em;
+	font-style: normal;
 	}
 
-/* a div surrounding the date and 'edit' link */
 .comment-meta {
-
+	margin-bottom: .5em;
+	width: 50%;
+	font-size: .75em;
 	}
 
-/* the paragraphs of actual comment text */
-#comments p {
-
+.commentlist p {
+	margin: .5em 0;
 	}
+
+#respond h3 {
+	margin: .5em 0;
+	padding-top: .2em;
+	border-top: none;
+	}
+
+textarea#comment {
+	margin: .5em 0;
+	}
+
+
+
+
 
 /* -----------------------
  *

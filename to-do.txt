@@ -6,16 +6,9 @@ tighten the grid
 	  WAIT ON THIS - need to see how it comes out of the php/db
 	  	need to get the widgets right
 	figure out search bar
+		how does it submit? maybe use get_search_form(); and write searchform.php
 	figure out rest of tabs (current tab?)
 
-
-link colors? I THINK LEAVE THE DEFAULTS
-	a 4e4e4e, bold
-	hover bdbdbd, bold
-	visited 7d7d7d bold?
-
-
-Where will bloginfo('description') go? (h2? subtitle?)
 
 Can I make my 'about' link better than a static link?
 	if not, make sure you get the url right
@@ -36,14 +29,8 @@ write in function to select tabs
 			?>unselected<?}?>"
 		
 
-start on normal pages
-	where does the image go?
-	tighten up the vertical rythm
-		body done
-		get sidebar
-
-	drop caps are a mess on IE, Opera and Webkit (margins, etc)
-	
-Any way to figure out what page I'm actually on?
-
 Are my divs wrapped right around the loop? class="post" should wrap the loop...does it?
+
+Need to do the vertical rhythm on the comments section (font sizes as per rhythym&scal; margins via em calc)
+
+
