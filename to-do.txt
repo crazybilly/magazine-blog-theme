@@ -13,13 +13,11 @@ tighten the grid
 Can I make my 'about' link better than a static link?
 	if not, make sure you get the url right
 
-Make 'Pages a drop down? Gonna have to figure out a better way to do this one
-	maybe this will work? I doubt it, but maybe
-		<a href="<? get_posts ('post_type=pages') ?>">
-	or maybe just create a pages.php with  get_posts ('post_type=pages')
-s the content
 
-	same for Archives? not sure what/how that page will work either.
+Tweak tab bar - perhaps http://htmldog.com/articles/suckerfish/dropdowns/
+	size of drop down (rhthym and scale?)
+	hover background colors and arrows?
+
 
 write in function to select tabs
 
@@ -32,5 +30,6 @@ write in function to select tabs
 Are my divs wrapped right around the loop? class="post" should wrap the loop...does it?
 
 Need to do the vertical rhythm on the comments section (font sizes as per rhythym&scal; margins via em calc)
+
 
 

@@ -11,6 +11,28 @@
 	<link rel="alternate" type="application/rss+xml" title="<? bloginfo('name'); ?> RSS Feed" href="<? bloginfo('rss2_url'); ?>" >
 	<link rel="pingback" href="<? bloginfo('pingback_url') ?>" >
 
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.2.6/jquery.js" type="text/javascript"></script>
+<!--	<script src="<? //bloginfo('stylesheet_directory')?>/scripts/drop-down.js" type="text/javascript"></script> -->
+
+
+<script type="text/javascript">
+sfHover = function() {
+	var sfEls = document.getElementById("nav").getElementsByTagName("LI");
+	for (var i=0; i<sfEls.length; i++) {
+		sfEls[i].onmouseover=function() {
+			this.className+=" sfhover";
+		}
+		sfEls[i].onmouseout=function() {
+			this.className=this.className.replace(new RegExp(" sfhover\\b"), "");
+		}
+	}
+}
+if (window.attachEvent) window.attachEvent("onload", sfHover);
+
+</script>
+
+
+
 <? wp_head(); ?>
 
 </head>
@@ -20,22 +42,37 @@
 		<div class="header">
 			<h1><a href="<? bloginfo('url') ?>"><? bloginfo('name'); ?></a></h1>
 
-			<ul class="tabs">
+			<ul id="tabs">
 				<li><a href="<? bloginfo('url') ?>">Home</a></li>
 				<li><a href="<? bloginfo('url') ?>/page.php?id=36">About</a></li>
-				<li><a href="#">Pages</a></li>
+				<li><a href="#">Pages</a>
+							<ul>
+								<? wp_list_pages('title_li='); ?>
+							</ul>
+				</li>
 				<li id="archivetab">
-<select name=\"archive-dropdown\" onChange='document.location.href=this.options[this.selectedIndex].value;'> 
+					<? echo archivemenu('Archives') ?>
+				</li>
+				
+				<!--<li id="archivetab">
+					<select name=\"archive-dropdown\" onChange='document.location.href=this.options[this.selectedIndex].value;'> 
 
-  <option value=\"\"><?php echo attribute_escape(__('Archives')); ?></option> 
-
-<?php wp_get_archives('type=monthly&format=option&show_post_count=1'); ?> </select>
+					  <option value=\"\">
+					  	
+						<?php //echo attribute_escape(__('Archives')); ?>
+					  
+					  </option> 
+						
+					  <?php //wp_get_archives('type=monthly&format=option&show_post_count=1'); ?> 
+					
+					</select>
 
 				</li>
-				<li id="subscribetab"><a href="<? bloginfo('rss2_url'); ?>"><img src="<? bloginfo('stylesheet_directory')?>/images/rss.png">Subscribe</a></li>
+				<li id="subscribetab"><a href="<? //bloginfo('rss2_url'); ?>"><img src="<? //bloginfo('stylesheet_directory')?>/images/rss.png">Subscribe</a></li>
 				<li id="searchtab">
 					<input type="text" id="searchbar" name="s" value="listen for..."/>
 					<input type="submit" value="Search" id="searchsubmit"/>
+-->
 			</ul>
 		</div>
 
