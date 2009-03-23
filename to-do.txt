@@ -21,6 +21,8 @@ Are my divs wrapped right around the loop? class="post" should wrap the loop...d
 
 Need to do the vertical rhythm on the comments section (font sizes as per rhythym&scal; margins via em calc)
 
-Write the plugin/function to grap a tiny exerpt
-	http://wordpress.org/support/topic/181187
+Fix categories in the sidebar (background-image: none)
+Should bullets be hung?
 
+
+Drop cap alignment?

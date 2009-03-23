@@ -1,11 +1,10 @@
 <div class="sidebar">
 <div id="sidebarleft">
-	<? 
 
-	if (is_home ()) {
-		if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar(1) ) :
-			//use below function in a text thingy
-			?><h2>Recently</h2><?
+	<? 
+	if (is_home ()) {?>
+		
+		<h2>Recently</h2><?
 
 				query_posts('showposts=1');
 				global $more;
@@ -15,13 +14,18 @@
 				if (have_posts()) :
 				   while (have_posts()) :
 			    	  the_post(); 	
-	
-				/*doing it via the_content	
-				 *requires <!--more --> or whatever*/
-					  the_content('Read more&#8230;');
-		
+
+					//mini-excerpt	
+						$excerpt = get_the_excerpt();
+						echo string_limit_words($excerpt,25); 
+
+						?><p class="readmore"><a href="<? the_permalink(); ?>">read more&#0133;</a></p><?
+
 				//close the loop
 				endwhile; endif;
+
+		if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar(1) ) :
+			//use below function in a text thingy
 			endif;
 
 	} else {

@@ -46,6 +46,16 @@ register_sidebar(array(
 'after_title' => '</h2>',
 ));
 
+//for tiny excerpts
+function string_limit_words($string, $word_limit)
+{
+  $words = explode(' ', $string, ($word_limit + 1));
+  if(count($words) > $word_limit)
+  array_pop($words);
+  return implode(' ', $words);
+}
+
+
 
 function location () {
 	

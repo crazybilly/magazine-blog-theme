@@ -326,6 +326,11 @@ li#searchtab {
 			border-bottom: none;
 			}
 
+/* got this figured out */
+.sidebar li.cat-item {
+	background-image: none;
+	}
+
 #sidebarright {
 	float: right;
 	width: 10.5em;
