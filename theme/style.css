@@ -57,8 +57,8 @@ a:visited {
 	background-color: #FDFDFD;
 	}
 
-	/* get colors back to normal for h1 and the tabs */
-	h1 a, #tabs a {
+	/* get colors back to normal for h1 */
+	h1 a {
 		text-decoration: none;
 		color: #4E4E4E;
 		}
@@ -68,135 +68,8 @@ a:visited {
  *
  * Header Tabs 
  *
- * -------------------------------
+ * -----------------------------------*/
 
-ul#tabs  {
-	display: block;
-	list-style: none;
-	background-image: 
-		url(images/tab.png);
-	padding: .5em 0;
-	margin-left: 0;
-	height: 100%;
-	margin-bottom: 0;
-	border-top: 1px solid silver;
-	border-bottom: 1px solid silver;
-	}
-
-#tabs li {
-	font-size: 1.45em;
-	border-right: 1px solid silver;
-	padding-right: 1em;
-	padding-left: 1em;
-	display: inline;
-	list-style: none;
-	font-family: Droid Serif,Georgia,Times,serif;
-	}
-
-#tabs li:last-child {
-	border-right: 0;
-}
-
-/*Pages Menu 
-#pagestab li {
-	float: left;
-	list-style: none;
-	font-size: 1em;
-	}
-
-#pagestab li a {
-	display: block;
-	padding: .45em .85em;
-	text-decoration: none;
-	width: 5em;
-	}
-
-/*change this to whatever the 'selected' bg img is going to be 
-#pagestab li a:hover
-	{	background: #1A4473}
-	
-
-		#pagestab li ul
-		{	margin: 0;
-			padding: 0;
-			position: absolute;
-			visibility: hidden;
-			border-top: 1px solid white;
-			font-size: .689em;
-			}
-		
-		#pagestab li ul li {
-			float: none;
-			display: inline;
-			margin: none:
-			}
-		
-		#pagestab li ul li a {
-			width: auto;
-			background: #FDFDFD;
-			}
-		
-		#pagestab li ul li a:hover {
-			background-color: #F9F9F9;
-			}
-
-
---------------------------------------
-ul#tabs  {
-	display: block;
-	width: 100%;
-	background-image:
-		url('images/tab.png');
-	height: 3em;
-	}
-
-	#tabs li {
-		float: left;
-		list-style: none;
-		font-family: Droid Serif,Georgia,Times,serif;
-		font-size: 1.45em;
-		}
-
-	#tabs li a {
-		display: block;
-		/*background: #20548E;
-		color: #EAFFED;*/
-/*		padding: 5px 12px;
-		text-decoration: none;
-		border-right: 1px solid silver;
-		width: 5em;
-		white-space: nowrap;
-		}
-
-	#tabs li a:hover {
-		background: #E8E8E8;
-		}
-		
-		#tabs li ul {
-			margin: 0;
-			padding: 0;
-			position: absolute;
-			visibility: hidden;
-			border-top: 1px solid white;
-			}
-		
-		#tabs li ul li {
-			float: none;
-			display: inline;
-			font-size: .689em;
-			}
-		
-		#tabs li ul li a {
-			width: auto;
-			background: #FDFDFD;
-			}
-		
-		#tabs li ul li a:hover {
-			background: #E8E8E8;
-			}
-
-
---------------------------------------*/
 #tabs, #tabs ul {
 	padding: 0;
 	margin: 0;
@@ -208,20 +81,31 @@ ul#tabs  {
 	font-size: 1.45em;
 	font-family: Droid Serif,Georgia,Times,serif;
 	border-top: 1px solid #4E4E4E;
-	border-bottom: 1px solid #4E4E4E;
+	border-bottom: 1px solid #4E4E4E; 
+	}
+
+#tabs ul {
+	border: 0;
 	}
 
 #tabs a {
 	display: block;
 	width: 10em;
+	text-decoration: none;
+
 }
+
+#tabs li a {
+	color: #4E4E4E;
+	}
 
 #tabs li {
 	float: left;
-	width: 9em;
+	width: 4.25em;
 	padding-top: .5335em;
 	padding-left: 1.2643em;
 	border-right: 1px solid silver;
+	height: 75%;
 }
 
 #tabs li ul {
@@ -230,24 +114,61 @@ ul#tabs  {
 	left: -999em;
 	font-size: .8em;
 	height: auto;
+	line-height: 1.5;
+	margin-top: .71em;
+	margin-left: -1.68em;
+
 	}
 
 #tabs li ul li {
-	border-right: 0;
 	background-color: #EFEFEF;
+	border-left: 1px solid silver;
+	width: 9em;
 	}
 
-#tabs li:hover ul {
-	left: auto;
+#tabs li ul li ul li {
+	width: 8.8em;
+	}
+
+#tabs li ul > li:first-child {
+	border-top: 1px solid silver;
+	}
+
+#tabs li ul > li:last-child {
+	border-bottom: 1px solid silver;
+	}
+
+#tabs li ul li:hover, #tabs li ul li.sfhover { 
 	background-color: #4E4E4E;
-}
+	color: #FDFDFD;
+	}
+
+#tabs li ul a:hover, #tabs li ul a.sfhover {
+	color: #FDFDFD;
+	}
 
 #tabs li:hover ul, #tabs li.sfhover ul {
 	left: auto;
+	background-color: #4E4E4E;
+	color: #FDFDFD;
 }
 
+/*keeps parent text the right color */
+#tabs li ul li:hover a, #tabs li ul li.sfhover a {
+	color: #FDFDFD;
+	}
+
+	#tabs li ul li:hover ul a, #tabs li ul li.sfhover ul a {
+		color: #4E4E4E;
+		}
+
+	#tabs li ul li:hover ul li:hover a, #tabs li ul li.sfhover ul li.sfhover a {
+		color: #FDFDFD;
+		}
+
 #tabs li ul ul {
-	margin: -1em 0 0 10em;
+	margin: -2.4em 0 0 10em;
+	font-size: .9em;
 }
 
 #tabs, #tabs ul {
@@ -259,17 +180,45 @@ ul#tabs  {
 
 #tabs li:hover ul ul, #tabs li.sfhover ul ul {
 	left: -999em;
-	background-color: #E8E8E8;
 }
 
 #tabs li:hover ul, #tabs li li:hover ul, #tabs li.sfhover ul, #tabs li li.sfhover ul {
 	left: auto;
 	background-color: #4E4E4E;
+	color: #FDFDFD;
 }
 
 
-/*_--------------------------------
+/* ---- positioning tweaks ----- */
 
+	#subscribetab img {
+		padding-right: .1em;
+		margin-right: .4em;
+		vertical-align: baseline;
+		width: 1em;
+		}
+
+	li#tab-4 {
+		width: 5.5em;
+		}
+
+	li#subscribetab {
+		width: 7.4em;
+		}
+
+	li#searchtab {
+		width: auto;
+		border-right: none;
+		padding-left: 1em;
+		}
+
+	input#searchsubmit {
+		margin-left: .5em;
+		}
+
+
+
+/* --- old ---
 li#archivetab  {
 	padding-left: 2em;
 	}

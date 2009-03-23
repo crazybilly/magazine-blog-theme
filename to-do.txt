@@ -5,31 +5,22 @@ tighten the grid
 		then align to grid
 	  WAIT ON THIS - need to see how it comes out of the php/db
 	  	need to get the widgets right
-	figure out search bar
-		how does it submit? maybe use get_search_form(); and write searchform.php
-	figure out rest of tabs (current tab?)
 
+Tabs
+	Arrows in drop downs?
 
-Can I make my 'about' link better than a static link?
-	if not, make sure you get the url right
+	write in function to select tabs
 
-
-Tweak tab bar - perhaps http://htmldog.com/articles/suckerfish/dropdowns/
-	size of drop down (rhthym and scale?)
-	hover background colors and arrows?
-
-
-write in function to select tabs
-
-	class = "<?if (is_home()) {
-			?>selected<?
-			else {
-			?>unselected<?}?>"
+		class = "<?if (is_home()) {
+				?>selected<?
+					else {
+				?>unselected<?}?>"
 		
 
 Are my divs wrapped right around the loop? class="post" should wrap the loop...does it?
 
 Need to do the vertical rhythm on the comments section (font sizes as per rhythym&scal; margins via em calc)
 
-
+Write the plugin/function to grap a tiny exerpt
+	http://wordpress.org/support/topic/181187
 

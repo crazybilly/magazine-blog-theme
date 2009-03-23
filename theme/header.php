@@ -43,36 +43,20 @@ if (window.attachEvent) window.attachEvent("onload", sfHover);
 			<h1><a href="<? bloginfo('url') ?>"><? bloginfo('name'); ?></a></h1>
 
 			<ul id="tabs">
-				<li><a href="<? bloginfo('url') ?>">Home</a></li>
-				<li><a href="<? bloginfo('url') ?>/page.php?id=36">About</a></li>
-				<li><a href="#">Pages</a>
+				<li id="tab-1"><a href="<? bloginfo('url') ?>">Home</a></li>
+					<!--may need to edit the about link for your blog -->
+				<li id="tab-2"><a href="<? bloginfo('url') ?>/about">About</a></li>
+				<li id="tab-3"><a href="#">Pages</a>
 							<ul>
 								<? wp_list_pages('title_li='); ?>
 							</ul>
 				</li>
-				<li id="archivetab">
+				<li id="tab-4">
 					<? echo archivemenu('Archives') ?>
 				</li>
-				
-				<!--<li id="archivetab">
-					<select name=\"archive-dropdown\" onChange='document.location.href=this.options[this.selectedIndex].value;'> 
-
-					  <option value=\"\">
-					  	
-						<?php //echo attribute_escape(__('Archives')); ?>
-					  
-					  </option> 
-						
-					  <?php //wp_get_archives('type=monthly&format=option&show_post_count=1'); ?> 
-					
-					</select>
-
-				</li>
-				<li id="subscribetab"><a href="<? //bloginfo('rss2_url'); ?>"><img src="<? //bloginfo('stylesheet_directory')?>/images/rss.png">Subscribe</a></li>
+				<li id="subscribetab"><a href="<? bloginfo('rss2_url'); ?>"><img src="<? bloginfo('stylesheet_directory')?>/images/rss.png">Subscribe</a></li>
 				<li id="searchtab">
-					<input type="text" id="searchbar" name="s" value="listen for..."/>
-					<input type="submit" value="Search" id="searchsubmit"/>
--->
+				<? get_search_form(); ?>
 			</ul>
 		</div>
 
