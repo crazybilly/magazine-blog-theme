@@ -1,0 +1,32 @@
+ALPHABETIC
+8, Art
+1, Life
+10, Links
+3, Linux
+4, Religion
+6, Technology
+
+BY ID
+1, Life
+3, Linux
+4, Religion
+6, Technology
+8, Art
+10, Links
+
+NEW
+1, Linux
+3, Technology
+4, Links
+6, Religion 
+8, Art
+10, Life
+
+NEWER
+1, Linux (ok)
+3, Religion (ok)
+4, Technology
+6, Art (ok)
+8, Links  	(gotta fix)
+10, Life (ok)
+

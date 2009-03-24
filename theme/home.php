@@ -8,7 +8,7 @@ get_header();
 			<? if (is_front_page() ) { ?> id="index" <? } ?> >
 
 			<ul class="categories">
-				<? wp_list_categories('title_li='); ?>
+				<? wp_list_categories('orderby=id&title_li='); ?>
 			</ul>
 
 		</div>

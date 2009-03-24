@@ -26,3 +26,6 @@ Should bullets be hung?
 
 
 Drop cap alignment?
+
+transp background for category labels needs to be 30% lighter
+z-index: -10 on line 390 isn't ok. need a different solution to overlapping menus

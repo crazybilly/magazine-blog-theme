@@ -407,39 +407,39 @@ ul.categories {
  *
  *  -----------------------*/
 
-.cat-item-3 {
+li.cat-item-1 {
 	background-image:
 		url('images/linux.jpg');
 		top: 14px;
 		}
 
-.cat-item-4 {
+li.cat-item-3 {
 	background-image:
 		url('images/religion.jpg');
 	top: -107px;
 	left: 316px
 	}
 
-.cat-item-6 {
+.cat-item-4 {
 	background-image:
 		url('images/tech.jpg');
 	top: -84px;
 	}
 	
-.cat-item-8 {
+.cat-item-6 {
 	background-image:
 		url('images/art.jpg');
 	top: -205px;
 	left: 316px
 	}
 	
-.cat-item-10 {
+.cat-item-8 {
 	background-image:
 		url('images/links.jpg');
 	top: -183px;
 	}
 
-.cat-item-1 {
+.cat-item-10 {
 	background-image:
 		url('images/life.jpg');
 	top: -304px;
