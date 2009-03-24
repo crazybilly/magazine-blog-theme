@@ -39,7 +39,7 @@ a:visited {
 
 .container {
 	margin-left: 1em;
-	width: 976px;
+	width: 73.7143em;
 	}
 
 .header {
@@ -106,6 +106,9 @@ a:visited {
 	padding-left: 1.2643em;
 	border-right: 1px solid silver;
 	height: 75%;
+	/*make menus appear on top */
+		position: relative;
+		z-index: 5;
 }
 
 #tabs li ul {
@@ -194,8 +197,9 @@ a:visited {
 	#subscribetab img {
 		padding-right: .1em;
 		margin-right: .4em;
-		vertical-align: baseline;
 		width: 1em;
+		margin-top: -.1em;
+		float: left;
 		}
 
 	li#tab-4 {
@@ -387,7 +391,6 @@ ul.categories {
 	margin: 0;
 	padding: 0;
 	border: 1px solid silver;
-	z-index: -10;
 	}
 
 .categories a {
