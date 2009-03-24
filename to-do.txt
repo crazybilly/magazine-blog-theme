@@ -7,7 +7,6 @@ tighten the grid
 	  	need to get the widgets right
 
 Tabs
-	Arrows in drop downs?
 
 	write in function to select tabs
 
@@ -28,4 +27,4 @@ Should bullets be hung?
 Drop cap alignment?
 
 transp background for category labels needs to be 30% lighter
-z-index: -10 on line 390 isn't ok. need a different solution to overlapping menus
+
