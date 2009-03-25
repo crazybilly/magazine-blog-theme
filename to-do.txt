@@ -26,5 +26,7 @@ Should bullets be hung?
 
 Drop cap alignment?
 
-transp background for category labels needs to be 30% lighter
+does transp background for category labels needs to be  lighter?
+
+Submit button svg needs some work--it's not perfect right now and repeats funny.
 

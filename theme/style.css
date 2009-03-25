@@ -37,6 +37,13 @@ a:visited {
 	color: #4E4E4E;
 	}
 
+.button {
+	background-image:
+		url ('images/button.png');
+	background-repeat: repeat-x;
+	border: 2px double silver;
+	}
+
 .container {
 	margin-left: 1em;
 	width: 73.7143em;
@@ -218,6 +225,10 @@ a:visited {
 
 	input#searchsubmit {
 		margin-left: .5em;
+		background-image: url('images/button.png');
+	background-repeat: repeat-x;
+	border: 2px double silver;
+		
 		}
 
 
