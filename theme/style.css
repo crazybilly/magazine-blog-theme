@@ -220,7 +220,7 @@ a:visited {
 	li#searchtab {
 		width: auto;
 		border-right: none;
-		padding-left: 1em;
+		padding-left: .3em;
 		}
 
 	input#searchsubmit {

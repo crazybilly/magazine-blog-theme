@@ -5,7 +5,7 @@
 	</label>
 
 	<div>
-		<input type="text" value="" name="s" id="s" size="25" />
+		<input type="text" value="" name="s" id="s" size="37" />
 		<input type="submit" id="searchsubmit" value="Search" />
 	</div>
 </form>			
