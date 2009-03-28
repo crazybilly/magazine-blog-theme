@@ -45,7 +45,7 @@ a:visited {
 	}
 
 .container {
-	margin-left: 1em;
+	margin-left: 1.5em;
 	width: 73.7143em;
 	}
 
@@ -226,8 +226,9 @@ a:visited {
 	input#searchsubmit {
 		margin-left: .5em;
 		background-image: url('images/button.png');
-	background-repeat: repeat-x;
-	border: 2px double silver;
+		background-repeat: repeat-x;
+		border: 2px double silver;
+		color: #444;
 		
 		}
 
@@ -310,6 +311,10 @@ li#searchtab {
 	margin-top: 0;
 	}
 
+.sidebar li {
+	margin-left: 1.18em;
+	}
+
 #sidebarleft {
 	width: 13.5em;
 	border-right: 1px solid silver;
@@ -359,9 +364,11 @@ li#searchtab {
  * -----------------------*/
 
 .content {
-	width: 620px;
+	width: 597px;
 	float: left;
 	margin-bottom: 1.45em;
+	padding-right: 2em;
+
 	}
 
 /*this keeps the footer from getting pushed down
@@ -489,6 +496,7 @@ li.cat-item-3 {
 
 /* Start the post */
 .post {
+	margin-bottom: 4em;
 
 	}
 
@@ -542,40 +550,30 @@ li.cat-item-3 {
 	width: 50%;
 	border-top: 1px solid silver;
 	padding: .875em 0 .875em 1.2em;
+	clear: left;
+	margin-top: 7em;
 
 	}
 
 /* drop caps for post content
  *
- * update: appears doing this a wp plugin (ie. php/javascript + spans) is the best way to do this.  Going to use this plugin:  http://wordpress.org/extend/plugins/drop-caps/ 
+ *Using plugin to write spans:  http://wordpress.org/extend/plugins/drop-caps/ 
  *
- *
+ */
 
-.post-content p:first-letter {
-	font-size: 7em;
-	color: #4E4E4E;
-	font-family: Droid Serif,Georgia,Times,serif;
-	float:left;
-	width: 100%;
-	margin: 0 .03em .05em 0;
-	}
-
-un-drop cap any following p 
-.post-content * + p:first-letter {
-	font-size: 1em;
-	color: black;
-	font: inherit;
-	float: none;
-	}
-*/
 
 	.post-content .cap {
-		font-size: 6.84615em;
+		
 		color: #4E4E4E;
 		font-family: Droid Serif,Georgia,Times,serif;
 		float:left;
-		line-height: 1em;
-		margin: -.1em .03em .05em 0;
+		/*
+		 * font-size: 6.84615em;
+		 * line-height: 1em;
+		 * margin: -.1em .03em .05em -.15em;*/
+		margin: .07em 0.03em -0.1em -0.125em;
+		line-height: .7em;
+		font-size: 7.8em;
 		}
 
 		.post-content p.first-child  {
@@ -594,7 +592,7 @@ un-drop cap any following p
 	at least */
 
 .comments h3 {
-	font-size: 1.5em;
+	font-size: 1.3333em;
 	margin-top: 1em;
 	width: 50%;
 	font-family: Droid Serif,Georgia,Times,serif;
@@ -611,7 +609,7 @@ h3#comments {
 .commentlist li {
 	margin: 1em 0;
 	list-style: none;
-	background-color: #FCFCFC;
+	background-color: #F5F5F5;
 	border-top: 1px solid silver;
 	border-bottom: 1px solid silver;
 	padding: .5em;
@@ -642,7 +640,13 @@ textarea#comment {
 	margin: .5em 0;
 	}
 
-
+input#submit {
+	background-image: url('images/button.png');
+	background-repeat: repeat-x;
+	border: 2px double silver;
+	color: #444;
+	}
+	
 
 
 

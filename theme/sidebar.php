@@ -38,14 +38,15 @@
 </div>
 
 <!--now for the right sidebar -->
-<div id="sidebarright"><?
+<div id="sidebarright">
 
+		<h2>About</h2>
+
+				<?php bloginfo('description'); ?> 
+<?
 	if (is_home ()) {
 		if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar(3) ) :
-			?><h2>About</h2>
-
-				<p>blogging at the intersection of postmodern Christianity and open source</p>
-
+			?>
 		<?endif;
 
 	} else {

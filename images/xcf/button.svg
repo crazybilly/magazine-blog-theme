@@ -81,7 +81,7 @@
        xlink:href="#linearGradient3309"
        id="radialGradient3329"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(-9.1002082e-2,-6.006394e-6,4.8136138e-6,-7.2151821e-2,490.72819,502.46448)"
+       gradientTransform="matrix(0,-7.2151895e-2,7.8326279e-3,1.4815334e-7,446.28333,490.32049)"
        cx="303.78342"
        cy="472.06915"
        fx="303.78342"
@@ -104,10 +104,10 @@
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="1600"
-     inkscape:window-height="1153"
+     inkscape:window-width="1278"
+     inkscape:window-height="759"
      inkscape:window-x="0"
-     inkscape:window-y="20" />
+     inkscape:window-y="1" />
   <metadata
      id="metadata7">
     <rdf:RDF>
@@ -129,10 +129,13 @@
        width="499.01538"
        height="88.893425"
        x="242.43663"
-       y="423.03714" />
+       y="423.03714"
+       inkscape:export-filename="/home/jaket/documents/web stuff/theme-magazine/magazine-blog-theme/theme/images/button2.png"
+       inkscape:export-xdpi="90.019997"
+       inkscape:export-ydpi="90.019997" />
     <path
-       style="opacity:1;fill:url(#radialGradient3329);fill-opacity:1;stroke:none;stroke-width:0.39912876000000003;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       d="M 449.48081,441.37855 L 449.48081,495.42544 L 476.68666,495.42544 L 476.68666,441.37855 L 449.48081,441.37855 z"
+       style="opacity:1;fill:url(#radialGradient3329);fill-opacity:1;stroke:none;stroke-width:0.39912876;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 449.48081,441.37855 L 449.48081,495.42544 L 450.48081,495.42544 L 450.48081,441.37855 L 449.48081,441.37855 z"
        id="rect2383"
        inkscape:export-filename="C:\Documents and Settings\jtolbert\Desktop\theme-magazine\magazine-blog-theme\theme\images\button.png"
        inkscape:export-xdpi="82.893227"

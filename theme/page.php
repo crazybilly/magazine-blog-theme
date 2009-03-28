@@ -39,15 +39,17 @@ if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 
 
 
-
+<!--post-->
+</div>
 
 <?//close the loop
 endwhile; else: ?>
-	<p><?php _e('Sorry, no posts matched your criteria.'); ?></p>
+	<p><?php _e('Sorry, no posts matched your criteria.'); ?></p> 
+	<!--post-->
+	</div>
 <?php endif; ?>
 
-<!--post-->
-</div>
+
 <!--content-->
 </div>
 <!--outside content-->

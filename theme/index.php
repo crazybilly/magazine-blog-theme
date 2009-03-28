@@ -34,13 +34,20 @@ if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 				<? the_tags('Tags:',', '); ?>
 		</div>
 
+<!--the post-->
+</div>
+
 <?//close the loop
 endwhile; else: ?>
-	<p><?php _e('Sorry, no posts matched your criteria.'); ?></p>
+	<div class="post">
+		<p><?php _e('Sorry, no posts matched your criteria.'); ?></p>
+	<!--the post-->
+	</div>
 <?php endif; ?>
 
+<!--content-->
 </div>
-</div>
+<!--contentoutside-->
 </div>
 
 <?
