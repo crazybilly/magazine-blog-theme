@@ -11,8 +11,6 @@
 	<link rel="alternate" type="application/rss+xml" title="<? bloginfo('name'); ?> RSS Feed" href="<? bloginfo('rss2_url'); ?>" >
 	<link rel="pingback" href="<? bloginfo('pingback_url') ?>" >
 
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.2.6/jquery.js" type="text/javascript"></script>
-<!--	<script src="<? //bloginfo('stylesheet_directory')?>/scripts/drop-down.js" type="text/javascript"></script> -->
 
 
 <script type="text/javascript">
@@ -54,7 +52,7 @@ if (window.attachEvent) window.attachEvent("onload", sfHover);
 				<li id="tab-4">
 					<? echo archivemenu('Archives') ?>
 				</li>
-				<li id="subscribetab"><a href="<? bloginfo('rss2_url'); ?>"><img src="<? bloginfo('stylesheet_directory')?>/images/rss.png">Subscribe</a></li>
+				<li id="subscribetab"><a href="<? bloginfo('rss2_url'); ?>"><img src="<? bloginfo('stylesheet_directory')?>/images/rss.png" alt="rss link">Subscribe</a></li>
 				<li id="searchtab">
 				<? get_search_form(); ?>
 			</ul>

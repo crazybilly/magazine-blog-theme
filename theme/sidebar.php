@@ -19,7 +19,7 @@
 						$excerpt = get_the_excerpt();
 						echo string_limit_words($excerpt,25); 
 
-						?><p class="readmore"><a href="<? the_permalink(); ?>">read more&#0133;</a></p><?
+						?><p class="readmore"><a href="<? the_permalink(); ?>">read more&hellip;</a></p><?
 
 				//close the loop
 				endwhile; endif;

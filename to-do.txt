@@ -1,5 +1,17 @@
 To Do
 
+finish categorizing? or find a way to deal w/ uncategorized & untitled posts
+
+deal w/ the categories--convert & consolidate
+
+write documentation, clean up the code
+install other plugins?
+
+validation - done (CSS only, HTML is wonky, mostly due to scripts/etc)
+
+
+
+----------------------Meh------------------------
 tighten the grid
 	wrap sidebar contents in divs (or class the <h3>s)
 		then align to grid
@@ -16,20 +28,8 @@ Tabs
 				?>unselected<?}?>"
 		
 
-Are my divs wrapped right around the loop? class="post" should wrap the loop...does it?
-
 Need to do the vertical rhythm on the comments section (font sizes as per rhythym&scal; margins via em calc)
-
-Fix categories in the sidebar (background-image: none)
-Should bullets be hung?
-
-
-Drop cap alignment?
-	also need to clear the dropcaps w/ the bottom-border
 
 does transp background for category labels needs to be lighter?
 
-Submit button svg needs some work--it's not perfect right now and repeats funny.
-
-looks like sidebar's being crowded by lines from comments
 
