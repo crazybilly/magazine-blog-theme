@@ -1,0 +1,24 @@
+wp_taxonomy holds all the category info 
+	EXCEPT
+the actual names
+
+and of course, the post info is in wp_post
+
+so, I suppose you could just change things in wp_term_relationships
+	post_id | term_taxonomy_id 
+
+
+$POST = mysql.wp_term_relationships
+
+foreach ($POST) }
+	
+	if ($tt_id == 2 || 4 || 5
+		then $tt_id 3
+
+}
+
+
+mysql use wp_taxonomy;
+rm 2;
+rm 4;
+rm 5;
