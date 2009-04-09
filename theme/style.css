@@ -225,6 +225,11 @@ a:visited {
 		padding-left: .3em;
 		}
 
+
+	input#s {
+		color: #B8B8B8;
+		}
+
 	input#searchsubmit {
 		margin-left: .5em;
 		background-image: url('images/button.png');
